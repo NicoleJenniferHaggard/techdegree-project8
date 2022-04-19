@@ -10,13 +10,13 @@ fetch(urlAPI)
   .then(res => res.json())
   .then(res => res.results)
   .then(displayEmployees)
-  .catch(err => console.log(err))
+  .catch(err => console.log(err));
 
   function displayEmployees(employeeData) {
   employees = employeeData;
 
   //store the employee HTML as we create it
-  let employeeHTML = ''; //double or single quotes?
+  let employeeHTML = "";
 
   //loop through each employee and create the HTML markup
   employees.forEach((employee, index) => {
@@ -41,6 +41,11 @@ fetch(urlAPI)
 
   gridContainer.innerHTML = employeeHTML;
 }
+
+
+//searchbar
+
+const
 
 function displayModal(index) {
 // use object destructuring make our template literal cleaner
