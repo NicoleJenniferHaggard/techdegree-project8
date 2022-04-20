@@ -12,6 +12,15 @@
   grid-gap: 30px;
 }
 
+h1 {
+	font-size: 1.5em;
+  text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
 body {
   position: relative;
   margin-left: 40px;
@@ -43,7 +52,6 @@ body {
 img.avatar {
   border-radius: 50%;
 }
-
 
 .overlay {
   position: absolute;
@@ -85,13 +93,4 @@ img.avatar {
 
 .hidden {
   display: none;
-}
-
-h1 {
-	font-size: 1.5em;
-  text-transform: uppercase;
-	font-weight: bold;
-	padding-top: 40px;
-	padding-bottom: 30px;
-	font-family: 'Roboto', sans-serif;
 }
