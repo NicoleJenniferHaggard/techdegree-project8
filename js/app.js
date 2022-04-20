@@ -1,5 +1,5 @@
 //Global variables
-let emplopyees = [];
+let employees = [];
 const urlAPI = `https://randomuser.me/api/?results=12&inc=name, picture, email, location, phone, dob &noinfo &nat=US`
 const gridContainer = document.querySelector(".grid-container");
 const overlay = document.querySelector(".overlay");
@@ -73,7 +73,7 @@ const modalHTML = `
 
 overlay.classList.remove("hidden");
 modalContainer.innerHTML = modalHTML;
-
+};
 
 gridContainer.addEventListener('click', e => {
 // make sure the click is not on the gridContainer itself
@@ -94,4 +94,3 @@ window.onclick = function(event) {
     overlay.classList.add("hidden");
   }
 }
-};
